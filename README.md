@@ -12,8 +12,8 @@ This repository aims to solve this problem 'the dirty way' by placing another co
 ### Docker
 
 ```bash
-docker build -t webhook-relay .
-docker run -p 8080:8080 webhook-relay
+docker build -t hanoi-did-webhook:1.0 .
+docker run -p 8080:8080 hanoi-did-webhook
 ```
 
 > See the [aries-cloudagent-ula-development-setup](https://github.com/ula-aca/aries-cloudagent-ula-development-setup) repository for a docker-compose example of the webhook-relay with [ACA-Py](https://github.com/hyperledger/aries-cloudagent-python/) and [von-network](https://github.com/bcgov/von-network).
